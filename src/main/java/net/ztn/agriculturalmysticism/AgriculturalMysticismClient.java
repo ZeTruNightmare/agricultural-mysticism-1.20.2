@@ -1,4 +1,4 @@
-package net.ztn;
+package net.ztn.agriculturalmysticism;
 
 import net.fabricmc.api.ClientModInitializer;
 

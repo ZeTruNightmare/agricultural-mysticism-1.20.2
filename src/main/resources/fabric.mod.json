@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.ztn.AgriculturalMysticism"
+			"net.ztn.agriculturalmysticism.AgriculturalMysticism"
 		],
 		"fabric-datagen": [
-			"net.ztn.AgriculturalMysticismDataGenerator"
+			"net.ztn.agriculturalmysticism.AgriculturalMysticismDataGenerator"
 		],
 		"client": [
-			"net.ztn.AgriculturalMysticismClient"
+			"net.ztn.agriculturalmysticism.AgriculturalMysticismClient"
 		]
 	},
 	"mixins": [

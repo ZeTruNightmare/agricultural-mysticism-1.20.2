@@ -1,4 +1,4 @@
-package net.ztn.mixin;
+package net.ztn.agriculturalmysticism.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
