@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "agricultural-mysticism:crafting_essence"
+    }
+  },
+  "result": {
+    "item": "agricultural-mysticism:iron_compound",
+    "count": 2
+  }
+}
