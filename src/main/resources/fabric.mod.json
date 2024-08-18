@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "agricultural-mysticism",
+	"version": "${version}",
+	"name": "Agricultural Mysticism",
+	"description": "For all those who love farming and resource generation",
+	"authors": [
+		"ZeTruNightmare"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/agricultural-mysticism/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ztn.AgriculturalMysticism"
+		],
+		"fabric-datagen": [
+			"net.ztn.AgriculturalMysticismDataGenerator"
+		],
+		"client": [
+			"net.ztn.AgriculturalMysticismClient"
+		]
+	},
+	"mixins": [
+		"agricultural-mysticism.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
